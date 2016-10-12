@@ -5,10 +5,19 @@
   <item android:id="@+id/action_change_units"
       android:title="@string/action_change_units"
       android:icon="@drawable/ic_attach_money_white_24dp"
-      android:orderInCategory="99"
+      android:orderInCategory="98"
+      android:contentDescription="@string/action_change_units"
       app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="99"
+        android:contentDescription="@string/action_refresh"
+        app:showAsAction="always" />
   <item android:id="@+id/action_settings"
       android:title="@string/action_settings"
       android:orderInCategory="100"
+      android:contentDescription="@string/action_settings"
       app:showAsAction="never" />
 </menu>
